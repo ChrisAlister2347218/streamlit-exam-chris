@@ -9,6 +9,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import seaborn as sns
 from nltk.stem import WordNetLemmatizer
 import matplotlib.pyplot as plt
+import nltk
+nltk.download('all')
+nltk.download('stopwords')
+nltk.download('punkt')
 
 def app():
     st.subheader("Text Similarity Analysis")
